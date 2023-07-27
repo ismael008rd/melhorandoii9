@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <title>Colunas-boodstrap</title>
+</head>
+
+<body>
+  <header class="header bg-primary p-5">
+    <h1>Projeto I9</h1>
+  </header>
+      <div class=" container  my-3 container-fluid bg-secondary">
+        <div class="input-group p-5 d-flex justify-content-center">
+           <div class="numeros ">
+        <span>Crédito</span>
+           <input type="number" class="form-control " id="credito">
+        <span>Débito</span>
+           <input type="number" class="form-control" id="debito">
+        <button class="btn bg-primary mt-3" id="btn-somar">Somar</button>
+
+          <span class="mt-2" >total</span>
+                    <input type="number" class="form-control" id="total" disabled>
+        <span>Preço produto</span>
+              <input type="number" class="form-control" id="preco">
+                   <span>Desconto</span>
+                        <input type="number" class="form-control" id="desconto" disabled>
+                   <span class="mt-2">Quantidade</span>
+                         <input type="number" class="form-control" id="quantidadeFinal" disabled>
+              <button class="btn bg-primary mt-3" id="calcular">Calcular</button>
+      </div>
+      </div>
+
+      </div>
+
+
+      
+      <footer class="footer bg-dark text-white text-center p-4">
+        <p>&copy; 2023 Ismael. Todos os direitos reservados.</p>
+      </footer>
+</body>
+
+</html>
